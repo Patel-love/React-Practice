@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import FormState from "./Components/Hooks/UseState/FormState";
-import FormReducer from "./Components/Hooks/UseReducer/FormReducer";
-// import NavbarContext from "./Components/Hooks/UseConText/NavbarContext";
-// import ParentContext from "./Components/Hooks/UseConText/ParentContext";
+// import FormState from "./Components/Hooks/UseState/FormState";
+// import FormReducer from "./Components/Hooks/UseReducer/FormReducer";
+import NavbarContext from "./Components/Hooks/UseConText/NavbarContext";
+import ParentContext from "./Components/Hooks/UseConText/ParentContext";
 // import NameComponent from "./Components/Hooks/UseMemo/NameComponent";
 // import MarkComponent from "./Components/Hooks/UseMemo/MarkComponent";
 // import StudentResult from "./Components/Hooks/UseMemo/StudentResult";
@@ -14,22 +14,22 @@ function App() {
     <>
       {/*--------------- UseReducer ------------------- */}
 
-      <FormReducer />
+      {/* <FormReducer /> */}
 
       {/*--------------- UseState ------------------- */}
 
-      <FormState />
+      {/* <FormState /> */}
 
       {/*--------------- UseContext ------------------- */}
 
-      {/* <NavbarContext />
+      <NavbarContext />
       <ParentContext />
       <div className="container text-bg-success text-center p-3 mt-5">
         <div className="h1">Count : {count}</div>
         <button className="btn btn-primary" onClick={() => setCount(count + 1)}>
           +
         </button>
-      </div> */}
+      </div>
 
       {/*---------------UseCallback-----------------  */}
 

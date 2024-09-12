@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body{
+  background-color: gray !important;
+}
+li{
+  list-style-type: none;
+}
+a{
+  text-decoration: none !important;
+  color: khaki !important;
+  font-size: 30px;
+
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 30px;
+  background-color: teal;
+  padding: 20px;
+}
+.crimson{
+  background-color: crimson;
+  color: aliceblue !important;
+  padding: 2px;
+}
+h2{
+  background-color: brown;
+  color: khaki;
+}
+.blue{
+  background-color: blue;
+  color: aliceblue !important;
+  padding: 2px;
+}
