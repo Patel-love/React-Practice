@@ -26,10 +26,18 @@ function Add() {
   return (
     <div
       className="container mt-5 p-5 text-center w-50 "
-      style={{ backgroundImage: " linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)", borderRadius: "10px" }}
+      style={{
+        backgroundImage: " linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)",
+        borderRadius: "10px",
+          boxShadow: "rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px"
+      }}
     >
-      <h1 className="text-center text-success mb-4"><b><i>Add User Detail</i></b></h1>
-      <form onSubmit={handleSubmit} >
+      <h1 className="text-center text-success mb-4">
+        <b>
+          <i>Add User Detail</i>
+        </b>
+      </h1>
+      <form onSubmit={handleSubmit}>
         <div className="mb-3">
           <label htmlFor="name" className="form-label">
             <b>User Name</b>

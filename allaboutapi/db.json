@@ -6,24 +6,19 @@
       "email": "Manav@gmail.com"
     },
     {
-      "id": 2,
       "name": "Masum",
-      "email": "Masum@gmail.com"
+      "email": "Masum@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "Nick",
+      "email": "Nick@gmail.com",
+      "id": 3
     },
     {
       "id": 4,
       "name": "Nikunj",
       "email": "Nikunj@gmail.com"
-    },
-    {
-      "id": 5,
-      "name": "Nick",
-      "email": "Nick@gmail.com"
-    },
-    {
-      "name": "Harsh",
-      "email": "Harsh@gmail.com",
-      "id": 6
     }
   ]
 }

@@ -35,13 +35,21 @@ function Update() {
   return (
     <div
       className="container mt-5 p-5 w-50 text-center"
-      style={{ backgroundImage: " linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)", borderRadius: "10px" }}
+      style={{
+        backgroundImage: " linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)",
+        borderRadius: "10px",
+        boxShadow: "rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px"
+      }}
     >
-      <h1 className="text-center text-primary mb-4"><b><i>Update User Detail</i></b></h1>
+      <h1 className="text-center text-primary mb-4">
+        <b>
+          <i>Update User Detail</i>
+        </b>
+      </h1>
       <form onSubmit={handleSubmit}>
         <div className="mb-3">
           <label htmlFor="id" className="form-label">
-           <b> User ID </b>
+            <b> User ID </b>
           </label>
           <input
             type="text"
@@ -53,7 +61,7 @@ function Update() {
         </div>
         <div className="mb-3">
           <label htmlFor="name" className="form-label">
-           <b>User Name </b> 
+            <b>User Name </b>
           </label>
           <input
             type="text"
